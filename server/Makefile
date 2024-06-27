@@ -8,8 +8,10 @@ target:server-test
 server-test:${server_src} 
 	g++ -g -pthread -o server-test ${server_src}
 
+.PHONY:clean server
+
 clean:
 	rm -rf server-test core*
 
 server:
-	./server-test 10.1.20.9 5005
+	./server-test 10.0.12.10 5005

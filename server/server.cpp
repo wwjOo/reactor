@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
     if(argc != 3)
     {
         cout << "params error!" << endl;
-        cout << "Usage1 : ./server-test 10.1.20.9 5005" << endl;
+        cout << "Usage1 : ./server-test 10.0.12.10 5005" << endl;
         cout << "Usage2 : make server" << endl;
         return -1;
     }
